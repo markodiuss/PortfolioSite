@@ -1,0 +1,83 @@
+@font-face {
+  font-family: ballpark;
+  src:url(../fonts/BALLW___.TTF);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.top-block {
+  background: url(../images/bg-header.gif) repeat 0 0;
+  border-bottom: 4px solid #242424;
+}
+
+  header {
+    padding: 24px 0 15px 0;
+  }
+
+    .container {
+
+    }
+
+      .logo {
+        color: #e0e0e0;
+        font-size: 36px;
+        font-family: ballpark;
+      }
+
+      .logo:hover {
+        color: #e0e0e0;
+      }
+
+nav a {
+  color: #e8e8e8;
+  font-weight: bold;
+  padding: 10px 14px;
+  display: block;
+}
+
+nav a:hover {
+  color: #e8e8e8;
+}
+
+nav .list-inline>li {
+  padding: 0 12px 0 12px;
+  background: url(../images/bg-nav-li.png) no-repeat 100% 50%;
+}
+
+nav li.active a,nav a:hover {
+  background: #282828; /* Old browsers */
+background: -moz-linear-gradient(top, #282828 0%, #2e2e2e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #282828 0%,#2e2e2e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #282828 0%,#2e2e2e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#282828', endColorstr='#2e2e2e',GradientType=0 ); /* IE6-9 */
+border-radius: 6px;
+}
+
+form {
+  background: #2f2f2f;
+  border-top: 1px solid #262626;
+  border-radius: 25px;
+  padding: 9px 0;
+}
+
+  input, button {
+    background: transparent;
+    border: none;
+  }
+
+  input[type="text"] {
+    width: 75%;
+    outline: none;
+  }
