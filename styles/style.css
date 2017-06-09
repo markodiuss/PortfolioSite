@@ -22,12 +22,12 @@ body {
   border-bottom: 4px solid #242424;
 }
 
-  header {
-    padding: 24px 0 15px 0;
+  .container {
+    
   }
 
-    .container {
-
+    header {
+      padding: 24px 0 15px 0;
     }
 
       .logo {
