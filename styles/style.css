@@ -122,6 +122,7 @@ body {
 
     .carousel-indicators .active {
       background-color: #bebebe;
+      margin: 1px;
 
     }
   
