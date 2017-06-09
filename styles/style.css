@@ -3,6 +3,11 @@
   src:url(../fonts/BALLW___.TTF);
 }
 
+@font-face {
+  font-family: hellvetica;
+  src:url(../fonts/HelveticaBlack.ttf);
+}
+
 a {
   text-decoration: none;
 }
@@ -97,4 +102,30 @@ body {
     }
 
     .col-md-5>p:nth-child(2) {
-      margin-bottom: 17px;
+      margin-bottom: 17px; 
+    }
+
+    .carousel-indicators {
+      text-align: right;
+      margin: 0;  
+      bottom:  -15px;   
+      width: 70%; 
+    }
+
+    .carousel-indicators li, .carousel-indicators .active {
+      height: 5px;
+      width: 23px;
+      border: none;
+      background-color: #888888;
+      border-radius: 0;
+    }
+
+    .carousel-indicators .active {
+      background-color: #bebebe;
+
+    }
+  
+  .padd-bottom30 {
+    padding-bottom: 30px;
+  }
+
